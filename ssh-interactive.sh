@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#This is an interactive script for using ssh
+#
+
 echo "Insert the ip addres to connect to:"
 
 seq -f "192.168.0.%1g" 10;
